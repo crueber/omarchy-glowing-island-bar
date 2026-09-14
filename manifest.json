@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "crueber.glowingislandbar",
+  "name": "Glowing Island Bar",
+  "version": "1.0.0",
+  "author": "crueber",
+  "license": "MIT",
+  "description": "Full Omarchy bar replacement that paints each section as a glowing island while the rest of the bar stays transparent.",
+  "kinds": [
+    "bar"
+  ],
+  "entryPoints": {
+    "bar": "Bar.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.bar"
+  }
+}
